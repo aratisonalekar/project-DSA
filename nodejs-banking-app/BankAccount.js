@@ -1,7 +1,7 @@
 import { LinkedList } from './LinkedList';
 import { TreeNode } from './TreeNode';
 
-export class Bank {
+export class BankAccount {
     constructor() {
         this.accounts = new LinkedList();
         this.treeRoot = null;
